@@ -21,11 +21,10 @@ Key components to be fulfilled :
 
   1. Logistic Regression
 
-    A statistical technique for forecasting a binary result is called logistic regression. It uses a logistic function to model the likelihood that an instance belongs to a specific class.
-    By maximizing the likelihood function, the method determines which model fits the data the best. It is appropriate for the dataset on breast cancer because:
-    
-    This dataset mostly comprises of numerical features, which it handles well. It gives comprehensible coefficients for every characteristic, so medical professionals may comprehend how every measurement affects 
-    the diagnosis. It performs well for classes that can be divided linearly and is computationally efficient.
+    A statistical technique for forecasting a binary result is called logistic regression. It uses a logistic function to model the likelihood that an instance belongs to a specific class.By maximizing the 
+    likelihood function, the method determines which model fits the data the best. It is appropriate for the dataset on breast cancer because:
+    This dataset mostly comprises of numerical features,  which it handles well. It gives comprehensible coefficients for every characteristic, so medical professionals may comprehend how every measurement 
+    affects  the diagnosis. It performs well for classes that can be divided linearly and is computationally efficient.
     
   2. Decision Tree Classifier
    
