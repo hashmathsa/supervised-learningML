@@ -13,13 +13,11 @@ Key components to be fulfilled :
    Load the breast cancer dataset from sklearn.
    Preprocess the data to handle any missing values and perform necessary feature scaling.
        Managing Missing Values: Mean imputation is one technique that can be used to handle missing values, even if the breast cancer dataset does not contain any missing values.
-
        Feature scaling: To guarantee uniformity among features, the features are standardized to have a zero mean and a unit variance using a standard scaler.
    
 2.Classification Algorithm Implementation 
 
-  Implement the following five classification algorithms:
-   Put the five categorization methods listed below into practice:
+  Implement the following five classification algorithms::
 
   1. Logistic Regression
 
@@ -27,14 +25,15 @@ Key components to be fulfilled :
     By maximizing the likelihood function, the method determines which model fits the data the best. It is appropriate for the dataset on breast cancer because:
     This dataset mostly comprises of numerical features, which it handles well. It gives comprehensible coefficients for every characteristic, so medical professionals may comprehend how every measurement affects 
     the diagnosis. It performs well for classes that can be divided linearly and is computationally efficient.
-3. Decision Tree Classifier
+    
+  2. Decision Tree Classifier
    
    A decision tree is a structure that resembles a flowchart, with each internal node standing in for a "test" on an attribute, each branch for the test's result, and each leaf node for the class label.
    Classification rules are represented by the pathways from root to leaf. It fits this dataset well because:
-   Non-linear correlations between characteristics and the target variable can be captured by it. For medical practitioners, it offers a clear visual depiction of the decision-making process, which can be helpful. 
-  It is adaptable to different kinds of medical data because it can handle both numerical and categorical data.
+   Non-linear correlations between characteristics and the target variable can be captured by it. For medical practitioners, it offers a clear visual depiction of the decision-making process, which can be 
+  helpful. It is adaptable to different kinds of medical data because it can handle both numerical and categorical data.
 
-3. Random Forest Classifier
+ 3. Random Forest Classifier
    
  During training, Random Forest creates a large number of decision trees and outputs the class that is the mean of the classes of the individual trees. This technique is known as ensemble learning. It builds
  each tree using random features and bagging. It's very good for the dataset on breast cancer because
